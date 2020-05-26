@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.15)
 project(
   prod_util
   VERSION 1.1.1
-  LANGUAGES Fortran)
+  LANGUAGES Fortran C)
 
 if(NOT CMAKE_BUILD_TYPE MATCHES "^(Debug|Release|RelWithDebInfo|MinSizeRel)$")
   message(STATUS "Setting build type to 'Release' as none was specified.")
